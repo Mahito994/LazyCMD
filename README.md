@@ -12,8 +12,7 @@
   <a href="https://lazyvim.github.io">Docs</a>
 </h4>
 
-LazyVim is a Neovim setup powered by [💤 lazy.nvim](https://github.com/folke/lazy.nvim)
-to make it easy to customize and extend your config.
-Rather than having to choose between starting from scratch or using a
-pre-made distro, LazyVim offers the best of both worlds - the flexibility
-to tweak your config as needed, along with the convenience of a pre-configured setup.
+LazyCMD is a CLI setup for Windows and Linux powered by Python
+to make it easy to customize and extend to your own Linkings.
+Rather than having to choose between starting from scratch or needing to do everything manual, LazyCMD offers the best solution of these both - the flexibility
+to tweak the user friendly code as needed, along with the convenience of a pre-configured baseline.
