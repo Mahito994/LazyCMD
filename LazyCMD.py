@@ -11,10 +11,16 @@ def open_menu():
 ║        LazyCMD        ║
 ╠═══════════════════════╣
 ║ 1) Open Firefox       ║
-║ 2) Exit               ║
+║ 2) Downloader         ║
+║ E) Exit               ║
 ╚═══════════════════════╝
 """
     )
+
+
+def get_choice():
+    choice = input("→ Choose an option: ").strip()
+    return choice
 
 
 # ---- Firefox ----
@@ -36,11 +42,26 @@ def open_firefox():
     input("Press Enter to continue...")
 
 
-def get_choice():
-    choice = input("→ Choose an option: ").strip()
-    return choice
+# ---- Downloads ----
+def open_downloads():
+    print(
+        """
+╔═══════════════════════╗
+║        LazyCMD        ║
+╠═══════════════════════╣
+║ 1) Open Firefox       ║
+║ 2) Downloader         ║
+║ E) Exit               ║
+╚═══════════════════════╝
+"""
+    )
 
 
+def downloads():
+    os.system
+
+
+# ---- Main script ----
 def main():
     while True:
         os.system("cls")
@@ -51,6 +72,8 @@ def main():
         if choice == "1":
             open_firefox()
         elif choice == "2":
+            downloads()
+        elif choice == "E" or choice == "e" or choice == "exit" or choice == "Exit":
             break
         else:
             print("\nInvalid choice.")
